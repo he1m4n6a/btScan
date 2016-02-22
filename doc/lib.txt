@@ -1,0 +1,7 @@
+cdmline.py	解析命令行参数
+include.py	包含路径
+ipparse.py	解析IP，包含CIDR格式的解析
+report.py	用于生成报告
+scancore.py	扫描工具的核心文件
+scanframe.py	config扫描模式的扫描方法，通过加载conf目录下的配置文件来扫描
+scriptframe.py 	script扫描模式的扫描方法，通过动态加载script脚本执行

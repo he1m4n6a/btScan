@@ -1,0 +1,2 @@
+NetSearch.py 通过网络搜索空间获取ip，可以单独运行，生成结果在out.txt
+search_rule.ini 配置文件，配置NetSearch.py的爬取参数
