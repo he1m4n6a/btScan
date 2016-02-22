@@ -34,7 +34,7 @@
 
 **示例**
 ```
-    python btscan.py -n joomla -m script -c verify -u url.txt
+python btscan.py -n joomla -m script -c verify -u url.txt
 -n 指定node文件夹下的joomla.py，-m指定为script模式，即指定加载模块的模式。-c指定模式为验证，仅为验证就好了，-u指定输入为url的模式。
 ```
 ```
