@@ -85,5 +85,6 @@ def exploit(ip):
 ##其他
 
 crwal文件夹的NetSearch.py里面的shadon和censys模块的密钥要自己填上。
+java反序列化的payload要自行更改，不然结果是发送到我的vps上。
 
 有任何交流和问题可以联系我he1m4n6a@163.com
