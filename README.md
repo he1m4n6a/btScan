@@ -1,4 +1,4 @@
-##目录结构
+## 目录结构
 
     --lib 核心文件库
 
@@ -9,7 +9,7 @@
     --crawl 通过空间搜索引擎抓取url或者ip的脚本
     
 
-##使用方法
+## 使用方法
     python btScan.py
     usage: btScan.py [options]
     
@@ -47,7 +47,7 @@ python btscan.py  -m config -c verify -i ip.txts
 ```
 
 
-##插件编写规则
+## 插件编写规则
 
 仅需要在node文件夹下新增一个py文件
 
@@ -82,7 +82,7 @@ def exploit(ip):
 ```
 上面函数都可以自己定义，主要是verfiy和exploit函数，如果exploit函数和verify函数一样，exploit函数里面只要简单的调用verify(url)即可。
 
-##其他
+## 其他
 
 crwal文件夹的NetSearch.py里面的shadon和censys模块的密钥要自己填上。
 java反序列化的payload要自行更改，不然结果是发送到我的vps上。
