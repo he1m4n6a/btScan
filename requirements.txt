@@ -1,4 +1,4 @@
 termcolor
 shodan
-censys
+censys==0.0.8
 pexpect
